@@ -1,0 +1,7 @@
+lib
+index.ts
+.vscode
+tsconfig.json
+*.log
+test.js
+CODE_OF_CONDUCT.md

@@ -1,0 +1,48 @@
+{
+  "name": "codehelp-compiler",
+  "version": "1.0.1",
+  "description": "A library that allows you to run programs in 5 languages using node.js, useful for creating online IDE's and similar projects.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run tsc --",
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "codehelp-compiler",
+    "compile",
+    "run",
+    "execute",
+    "python",
+    "java",
+    "node",
+    "nodejs",
+    "gcc",
+    "cpp",
+    "c",
+    "c++"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepranaygupta/codehelp-compiler.git"
+  },
+  "author": "Pranay Gupta <pranaygupta.aec@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thepranaygupta/codehelp-compiler/issues"
+  },
+  "homepage": "https://github.com/thepranaygupta/codehelp-compiler#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.15",
+    "typescript": "^3.5.3"
+  },
+  "files": [
+    "dist",
+    "extensions-map.json"
+  ]
+}
