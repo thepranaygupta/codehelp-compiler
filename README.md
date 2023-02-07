@@ -1,4 +1,4 @@
-codehelp-compiler
+CodeHelp Compiler
 ===================
 
 - The library functions as an interface for the compilers on your system.

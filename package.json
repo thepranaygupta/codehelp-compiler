@@ -1,6 +1,6 @@
 {
   "name": "codehelp-compiler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A library that allows you to run programs in 5 languages using node.js, useful for creating online IDE's and similar projects.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
